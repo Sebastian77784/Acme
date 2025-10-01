@@ -14,6 +14,7 @@
       <th scope="col">telefono</th>
       <th scope="col">email</th>
       <th scope="col">password</th>
+      <th>Eliminar</th>
     </tr>
   </thead>
   <tbody>

@@ -11,6 +11,6 @@ class UsuarioController extends Controller
         /** Select * from users */
         $data = User::all();
         //dd($data);
-        return view ("admin.users")-> with('usuarios',$data);
+        return view ("admin.users") -> with('usuarios',$data);
     }
 }
