@@ -15,3 +15,7 @@ Route::group(['prefix'=>'dashboard'],function(){
     Route::POST("/planos",[planosController::class, 'createPlanos']);
 });
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
